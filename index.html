@@ -1,0 +1,608 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بحث التسمم الحملي - يزن خالد عبد الرحمن</title>
+</head>
+<style>
+    body {
+      <div id="progress-bar"></div>
+        background-image: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)), url('https://www.transparenttextures.com/patterns/cubes.png') !important;
+        background-attachment: fixed !important;
+        background-size: auto !important;
+    }
+    /* ده الكود اللي هيغير شكل البحث 180 درجة */
+    body {
+        background-color: #f8f9fa !important;
+        direction: rtl;
+        padding: 15px !important;
+    }
+    header, nav, section {
+        max-width: 900px;
+        margin: 20px auto !important;
+        border: none !important;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.08) !important;
+    }
+    h1 {
+        background: #2c3e50;
+        color: white !important;
+        padding: 20px;
+        border-radius: 10px;
+        border: none !important;
+    }
+        section {
+    background: #fff !important;
+    border: none !important;
+    border-radius: 20px !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.03) !important; /* ظل خفيف جداً زي المواقع المودرن */
+    padding: 40px !important;
+    margin-bottom: 50px !important;
+}
+h2 {
+    font-size: 1.8rem !important;
+    color: #2c3e50 !important;
+    border-bottom: 2px solid #f39c12 !important; /* خط برتقالي نحيف وشيك */
+    padding-bottom: 10px;
+    display: block;
+}
+
+
+    h2 {
+        color: #c0392b !important;
+        border-right: 8px solid #c0392b !important;
+        background: #fdf2f2;
+        padding: 10px 15px !important;
+    }
+    nav {
+        background: #fff !important;
+        border-top: 5px solid #2c3e50 !important;
+    }
+    nav a {
+        color: #2c3e50 !important;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    nav a:hover {
+        color: #c0392b !important;
+    }
+    section {
+        background: white !important;
+        border-radius: 12px !important;
+        padding: 25px !important;
+    }
+        /* تنسيق الجداول عشان تبقى شيك */
+    table {
+        width: 100% !important;
+        border-collapse: separate !important;
+        border-spacing: 0 !important;
+        margin: 20px 0 !important;
+        border-radius: 10px !important;
+        overflow: hidden !important;
+        border: 1px solid #ddd !important;
+    }
+    th {
+        background-color: #2c3e50 !important;
+        color: white !important;
+        padding: 15px !important;
+        text-align: center !important;
+    }
+    td {
+        padding: 12px !important;
+        border-bottom: 1px solid #eee !important;
+        text-align: center !important;
+    }
+    tr:hover {
+        background-color: #f1f1f1 !important; /* حركة خفيفة لما الماوس ييجي على السطر */
+    }
+
+    /* تنسيق القوائم (النقط) */
+    ul {
+        list-style-type: none !important;
+        padding-right: 20px !important;
+    }
+    ul li::before {
+        content: "•" !important;
+        color: #c0392b !important; /* نقط حمراء فخمة */
+        font-weight: bold !important;
+        display: inline-block !important;
+        width: 1em !important;
+        margin-right: -1em !important;
+    }
+    /* تنسيق زرار العودة للأعلى */
+    .back-to-top {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        background-color: #c0392b;
+        color: white !important;
+        padding: 10px 15px;
+        border-radius: 50px;
+        text-decoration: none !important;
+        font-weight: bold;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        z-index: 1000;
+        font-size: 14px;
+        border: 2px solid white;
+    }
+    .back-to-top:hover {
+        background-color: #2c3e50;
+        transform: scale(1.1);
+    }
+    /* تنسيق العنوان الرئيسي */
+    .main-title {
+        background: linear-gradient(135deg, #2c3e50, #c0392b);
+        color: white !important;
+        padding: 30px !important;
+        border-radius: 15px;
+        text-align: center;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        margin-bottom: 40px !important;
+        border: 2px solid #fff;
+    }
+
+    /* تنسيق الفقرات عشان متبقاش لازقة في بعض */
+    p {
+        margin-bottom: 15px;
+        text-align: justify; /* بيخلي سطور الكلام متساوية من الجانبين */
+        font-size: 17px;
+    }
+
+    /* تمييز الكلمات المهمة */
+    .highlight {
+        color: #c0392b;
+        font-weight: bold;
+        background: #fdf2f2;
+        padding: 2px 5px;
+        border-radius: 4px;
+    }
+    .warning-box {
+        background: #fff5f5;
+        border-right: 10px solid #e74c3c; /* أحمر تحذيري */
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 8px;
+        color: #c0392b;
+        font-weight: bold;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+    /* كارت المصادر الزجاجي */
+    .reference-card {
+        background: rgba(255, 255, 255, 0.7) !important;
+        backdrop-filter: blur(10px); /* حركة التغبيش بتاعة الأيفون */
+        border: 1px solid rgba(255, 255, 255, 0.3) !important;
+        padding: 25px !important;
+        border-radius: 20px !important;
+        margin-top: 40px !important;
+        box-shadow: 0 8px 32px rgba(31, 38, 135, 0.1) !important;
+    }
+
+    /* حركة للعناوين الجانبية لما تمشي عليها بالماوس */
+        section:hover, .warning-box:hover, .reference-card:hover {
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+        border: 1px solid #c0392b !important;
+        transition: 0.3s ease !important;
+    }
+
+    }
+    /* تخصيص المسطرة الجانبية */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #c0392b; /* لون الجامعة */
+        
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #2c3e50;
+    }
+        /* تمييز أول كلمة في كل سكشن */
+    section p::first-line {
+        font-weight: bold;
+        color: #2c3e50;
+    }
+    
+    /* حركة البرواز الجانبي الفخم لكل سكشن */
+    section {
+        border-right: 5px solid #c0392b !important;
+        background: linear-gradient(to left, #ffffff, #fdfdfd) !important;
+        margin-bottom: 30px !important;
+        padding: 25px !important;
+        border-radius: 0 15px 15px 0 !important;
+    }
+    /* شريط التقدم فوق خالص */
+    #progress-bar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 5px;
+        background: #c0392b;
+        width: 0%;
+        z-index: 9999;
+        transition: width 0.1s ease;
+    }
+    #progress-bar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 6px; /* كبرناه سنة */
+        background: linear-gradient(to left, #c0392b, #e74c3c); /* خليناه متدرج وشيك */
+        width: 0%;
+        z-index: 9999;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* ضفنا له ظل عشان يبان فوق الكلام */
+    }
+    /* تحويل الأقسام لكروت عالمية */
+    section {
+        background: white !important;
+        border-radius: 15px !important;
+        padding: 30px !important;
+        margin-bottom: 40px !important;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.05) !important;
+        border-right: 8px solid #c0392b !important; /* الخط الأحمر الفخم */
+        position: relative;
+        overflow: hidden;
+    }
+
+    /* حركة "الظل" الخفي تحت العناوين */
+    h2 {
+        display: inline-block;
+        padding-bottom: 10px;
+        margin-bottom: 20px !important;
+        border-bottom: 3px double #c0392b;
+        color: #2c3e50 !important;
+        width: 100%;
+    }
+    /* تنسيق القوائم بشكل احترافي */
+    ul li {
+        background: #fdfdfd;
+        margin-bottom: 10px;
+        padding: 12px 15px !important;
+        border-radius: 8px;
+        list-style: none !important;
+        border: 1px solid #eee;
+        transition: 0.3s;
+    }
+
+    ul li:hover {
+        background: #fff5f5 !important;
+        padding-right: 25px !important; /* بتتحرك لليمين شوية لما تلمسيها */
+        border-right: 4px solid #c0392b;
+    }
+section {
+    background: rgba(255, 255, 255, 0.8) !important;
+    backdrop-filter: blur(10px) !important; /* تأثير التغبيش الزجاجي */
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    border-right: 10px solid #c0392b !important; /* الخط الأحمر السميك */
+    border-radius: 20px !important;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.05) !important;
+}
+.bottom-nav {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(44, 62, 80, 0.9); /* كحلي فخم شفاف */
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: flex;
+    gap: 15px;
+    z-index: 1000;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.bottom-nav a {
+    color: white !important;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+section {
+    animation: fadeInUp 1s ease-out forwards;
+}
+h1 {
+    
+
+background-image: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)), url('https://www.transparenttextures.com/patterns/cubes.png');</style>
+
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 20px; background-color: #f4f7f6; color: #333; line-height: 1.8;">
+
+    <header style="background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 25px; border-top: 8px solid #c0392b;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+            <img src="damascus.png" alt="جامعة دمشق" style="width: 85px; height: auto;">
+            <div style="text-align: center;">
+                <h2 style="margin: 0; color: #c0392b; font-size: 1.3em;">الجمهورية العربية السورية</h2>
+                <h3 style="margin: 5px 0; color: #2c3e50;">جامعة دمشق - كلية الطب البيطري</h3>
+            </div>
+            <img src="vet.png" alt="كلية الطب البيطري" style="width: 85px; height: auto;">
+        </div>
+        
+
+    
+
+    <nav style="background: white; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); margin-bottom: 30px; border-right: 6px solid #3498db;">
+        <h3 style="color: #2c3e50; margin-top: 0; border-bottom: 1px solid #eee; padding-bottom: 10px;">فهرس البحث:</h3>
+        <ul style="list-style: none; padding: 0;">
+            <li style="margin: 8px 0;"><a href="#pathophysiology" style="text-decoration: none; color: #2980b9; font-weight: bold;">1. التوصيف المرضي والفسيولوجيا</a></li>
+            <li style="margin: 8px 0;"><a href="#etiology" style="text-decoration: none; color: #2980b9; font-weight: bold;">2. المسببات وعوامل الخطر</a></li>
+            <li style="margin: 8px 0;"><a href="#clinical-signs" style="text-decoration: none; color: #2980b9; font-weight: bold;">3. الأعراض الإكلينيكية والتشريحية</a></li>
+            <li style="margin: 8px 0;"><a href="#syria-status" style="text-decoration: none; color: #2980b9; font-weight: bold;">4. دراسة الحالة في الجمهورية العربية السورية</a></li>
+            <li style="margin: 8px 0;"><a href="#treatment" style="text-decoration: none; color: #2980b9; font-weight: bold;">5. البروتوكول العلاجي المتقدم</a></li>
+            <li style="margin: 8px 0;"><a href="#prevention" style="text-decoration: none; color: #2980b9; font-weight: bold;">6. الإدارة الوقائية المتكاملة</a></li>
+            <li style="margin: 8px 0;"><a href="#latest-research" style="text-decoration: none; color: #2980b9; font-weight: bold;">7. أحدث الدراسات والآفاق المستقبلية 2024-2025</a></li>
+        </ul>
+    </nav>
+
+    <section id="pathophysiology" style="padding: 20px; border-bottom: 2px solid #ddd;">
+        <h2 style="color: #2c3e50; border-right: 5px solid #e74c3c; padding-right: 10px;">
+            1. التوصيف المرضي والفسيولوجيا (Detailed Pathophysiology)
+        </h2>
+        
+        <div class="content" style="line-height: 1.8; text-align: justify;">
+            <p>
+                يعتبر التسمم الحملي <strong>أزمة استقلابية حادة</strong> تنتج عن عدم قدرة الأم على تلبية الطلب المتزايد للجنين على الجلوكوز في الثلث الأخير من الحمل.
+            </p>
+
+            <h3 style="color: #c0392b;">أ- خلل توازن الطاقة (Negative Energy Balance):</h3>
+            <p>
+                في النعاج الحامل بتوائم، يستهلك الأجنة ما يصل إلى <strong>80%</strong> من إنتاج الأم اليومي من الجلوكوز. مع تزايد حجم الرحم، ينضغط الكرش مما يقلل من سعة تناول العليقة، مما يدخل الحيوان في حالة عجز طاقي حاد.
+            </p>
+
+            <h3 style="color: #c0392b;">ب- استقلاب الدهون وتراكم الكيتونات:</h3>
+            <p>
+                نتيجة لنقص الجلوكوز، يبدأ الجسم بعملية تحلل الدهون (Lipolysis) لإطلاق الأحماض الدهنية (NEFAs). يتشبع الكبد بهذه الأحماض ويبدأ في إنتاج <strong>الأجسام الكيتونية</strong> التي تتراكم في الدم مسببة (Hyperketonemia).
+            </p>
+
+            <h3 style="color: #c0392b;">ج- الفشل الكبدي والسمية العصبية:</h3>
+            <p>
+                تؤدي الأجسام الكيتونية المرتفعة مع نقص السكر في الدم (Hypoglycemia) إلى خلل وظيفي في الدماغ، مما يفسر الأعراض العصبية الشهيرة. كما يظهر الكبد في الفحص التشريحي بلون أصفر شاحب نتيجة <strong>Hepatic Lipidosis</strong>.
+            </p>
+
+            <div class="source-box" style="background-color: #f9f9f9; padding: 10px; border-radius: 5px; margin-top: 20px; font-size: 0.9em;">
+                <strong>المصادر العلمية:</strong>
+                <ul>
+                    <li><a href="https://www.merckvetmanual.com/metabolic-disorders/pregnancy-toxemia-in-sheep-and-goats/pregnancy-toxemia-in-sheep-and-goats" target="_blank">Merck Veterinary Manual (Metabolic Disorders)</a></li>
+                    <li>Constable et al., Veterinary Medicine Textbook, 11th Edition.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="etiology" style="padding: 20px; border-bottom: 2px solid #ddd; background-color: #fcfcfc;">
+        <h2 style="color: #2c3e50; border-right: 5px solid #27ae60; padding-right: 10px;">
+            2. المسببات وعوامل الخطر (Etiology & Risk Factors)
+        </h2>
+<div class="reference-card">
+    <h2 style="background:none; color:#2c3e50; border-right:5px solid #2c3e50;">📚 المصادر المعتمدة</h2>
+    <p>1. Veterinary Medicine: A textbook of the diseases of cattle, horses, sheep, pigs and goats.</p>
+    <p>2. Merck Veterinary Manual - Pregnancy Toxemia in Ewes.</p>
+</div>
+
+        <div class="content" style="line-height: 1.8; text-align: justify;">
+            <p>
+                تتداخل عدة عوامل بيئية وفسيولوجية لتؤدي إلى ظهور المرض، ويمكن تقسيمها إلى عوامل غذائية وعوامل متعلقة بالحيوان نفسه.
+            </p>
+
+            <h3 style="color: #2e7d32;">أ- عبء الحمل (Fetal Demand):</h3>
+            <p>
+                الحمل المتعدد (التوائم) يرفع متطلبات الجلوكوز بنسبة <strong>200%</strong> مقارنة بالحمل الفردي. في الوقت ذاته، يضغط الرحم فيزيائياً على الكرش، مما يقلل من كمية المادة الجافة (Dry Matter Intake) التي يمكن للنعجة تناولها.
+            </p>
+
+            <h3 style="color: #2e7d32;">ب- مؤشر حالة الجسم (Body Condition Score - BCS):</h3>
+            <p>
+                النعاج التي تمتلك BCS أعلى من <strong>4.0</strong> (بدينة جداً) أو أقل من <strong>2.0</strong> (هزيلة جداً) هي الأكثر عرضة للخطر. السمنة المفرطة تؤدي إلى تراكم الدهون في الكبد مما يعيق وظيفته الاستقلابية.
+            </p>
+
+            <h3 style="color: #2e7d32;">ج- الإجهاد البيئي (Environmental Stressors):</h3>
+            <p>
+                أي إجهاد مفاجئ مثل <strong>النقل، سوء الأحوال الجوية، أو الحرمان من الماء</strong> يؤدي إلى استنفاد مخزون الجليكوجين الكبدي بسرعة ودخول الحيوان في أزمة كيتونية.
+            </p>
+
+            <div class="source-box" style="background-color: #f1f1f1; padding: 10px; border-radius: 5px; margin-top: 20px; font-size: 0.9em;">
+                <strong>المصادر العلمية:</strong>
+                <ul>
+                    <li><a href="https://vetmed.iastate.edu/vdpam" target="_blank">Iowa State University - Veterinary Diagnostic Lab</a></li>
+                    <li><a href="https://vcahospitals.com/know-your-pet/ketosis-in-sheep-and-goats" target="_blank">VCA Animal Hospitals Guide</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="clinical-signs" style="padding: 20px; border-bottom: 2px solid #ddd;">
+        <h2 style="color: #2c3e50; border-right: 5px solid #f39c12; padding-right: 10px;">
+            3. الأعراض الإكلينيكية والتشريحية (Clinical Signs & Pathology)
+        </h2>
+
+        <div class="content" style="line-height: 1.8; text-align: justify;">
+            <p>
+                تتطور الأعراض السريرية للتسمم الحملي بشكل تدريجي يعكس تدهور الحالة الاستقلابية وتأثير السمية العصبية.
+            </p>
+
+            <h3 style="color: #d35400;">أ- العلامات العصبية (Neurological Manifestations):</h3>
+            <p>
+                العلامة الأكثر تميزاً هي <strong>وضعية "Star-gazing"</strong>، حيث ترفع النعجة رأسها بشكل دائم للخلف. يرافق ذلك عمى ظاهري، صرير أسنان، ورعاش عضلي ناتج عن نقص الجلوكوز الحاد في الدماغ.
+            </p>
+            
+            <div style="text-align: center; margin: 20px 0;">
+                <img src="star_gazing.jpg" alt="Star-gazing posture in sheep" style="max-width: 80%; border-radius: 10px; border: 3px solid #f39c12;">
+                <p style="font-style: italic; color: #666;">شكل (1): وضعية "النظر للنجوم" الناتجة عن السمية الكيتونية</p>
+            </div>
+
+            <h3 style="color: #d35400;">ب- النتائج التشريحية (Post-mortem):</h3>
+            <p>
+                عند إجراء الصفة التشريحية، يظهر <strong>الكبد بلون أصفر شاحب (Fatty Liver)</strong> وملمس دهني واضح نتيجة تراكم الدهون (Hepatic Lipidosis). كما نلاحظ تضخماً في الغدد الكظرية ووجود حمل متعدد في الرحم.
+            </p>
+<div class="warning-box">
+   ⚠️ تنبيه طبي (Clinical Note):<br>
+   تذكر أن التسمم الحملي يتطور بسرعة؛ وفي الحالات المتقدمة التي يرفض فيها الحيوان الأكل تماماً، يصبح العلاج بالدكستروز والبروبيلين جليكول غير كافٍ وحده، وقد نضطر للتدخل الجراحي (القيصرية) لإنقاذ النعجة.
+</div>
+
+            <div class="source-box" style="background-color: #fff9f0; padding: 10px; border-radius: 5px; margin-top: 20px; font-size: 0.9em;">
+                <strong>المصادر العلمية:</strong>
+                <ul>
+                    <li><a href="https://www.nadis.org.uk/disease-a-z/sheep/pregnancy-toxemia-twin-lamb-disease/" target="_blank">NADIS - Animal Health Skills</a></li>
+                    <li>Cornell University - Veterinary Pathology Database.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="syria-status" style="padding: 20px; border-bottom: 2px solid #ddd; background-color: #f0f7ff;">
+        <h2 style="color: #2c3e50; border-right: 5px solid #005aab; padding-right: 10px;">
+            4. دراسة الحالة في الجمهورية العربية السورية (Local Status in Syria)
+        </h2>
+
+        <div class="content" style="line-height: 1.8; text-align: justify;">
+            <p>
+                تعتبر تربية الأغنام (سلالة العواس) ركيزة أساسية في الاقتصاد الزراعي السوري، ويشكل التسمم الحملي تحدياً كبيراً للمربين، خاصة في المناطق الجافة وشبه الجافة.
+            </p>
+
+            <h3 style="color: #005aab;">أ- العوامل المرتبطة بسلالة العواس:</h3>
+            <p>
+                تتميز أغنام <strong>العواس السورية</strong> بقدرة عالية على تخزين الدهون في الألية، وهو ما يعد سلاحاً ذا حدين؛ فعند نقص التغذية في أواخر الحمل، يتم استقلاب هذه الدهون بكثافة مما يؤدي لارتفاع حاد في الأجسام الكيتونية (Ketosis) يفوق قدرة الكبد الاستيعابية.
+            </p>
+
+            <h3 style="color: #005aab;">ب- التأثيرات البيئية والاقتصادية:</h3>
+            <p>
+                يرتبط ظهور المرض محلياً بمواسم الجفاف ونقص المراعي الطبيعية في البادية السورية. تشير الدراسات المحلية إلى أن نقص "العليقة المركزة" في الشهر الأخير من الحمل هو المسبب الرئيسي لأغلب حالات النفوق في ريف دمشق وحماة ودرعا.
+            </p>
+
+            <h3 style="color: #005aab;">ج- الإحصائيات المحلية:</h3>
+            <p>
+                تتراوح نسب الإصابة في القطعان المتأثرة ما بين <strong>5-12%</strong>، وترتفع نسبة النفوق بشكل كبير في حال تأخر التشخيص الحقلي. تعتمد كليات الطب البيطري في الجامعات السورية (دمشق، حماة، البعث) برامج توعوية للمربين للوقاية من هذا الاضطراب.
+            </p>
+
+            <div class="source-box" style="background-color: #e6eff7; padding: 10px; border-radius: 5px; margin-top: 20px; font-size: 0.9em;">
+                <strong>المصادر المحلية:</strong>
+                <ul>
+                    <li><a href="http://www.damascusuniversity.edu.sy/mag/agri/" target="_blank">مجلة جامعة دمشق للعلوم الزراعية والبيطرية.</a></li>
+                    <li>تقارير مديرية الصحة الحيوانية - وزارة الزراعة السورية.</li>
+                    <li>أبحاث البحث العلمي الزراعي (GCSAR) حول أغنام العواس.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="treatment" style="padding: 20px; border-bottom: 2px solid #ddd; background-color: #fffdec;">
+        <h2 style="color: #2c3e50; border-right: 5px solid #d4ac0d; padding-right: 10px;">
+            5. البروتوكول العلاجي المتقدم (Advanced Treatment Protocol)
+        </h2>
+
+        <div class="content" style="line-height: 1.8; text-align: justify;">
+            <p>
+                يعتمد نجاح العلاج بشكل أساسي على سرعة التدخل، ويهدف البروتوكول الحديث إلى رفع مستوى جلوكوز الدم مع وقف عملية تكسير دهون الجسم.
+            </p>
+
+            <h3 style="color: #9a7d0a;">أ- العلاج التعويضي (Glucose Replacement):</h3>
+            <p>
+                يتم حقن <strong>Dextrose 50%</strong> وريدياً بجرعة (50-100 مل) لتوفير طاقة فورية للدماغ. يتبع ذلك إعطاء <strong>Propylene Glycol</strong> فموياً (60-100 مل) مرتين يومياً لمدة 3 أيام لضمان استقرار مستويات السكر.
+            </p>
+
+            <h3 style="color: #9a7d0a;">ب- التدخل الهرموني والولادة التحريضية:</h3>
+            <p>
+                استخدام <strong>Dexamethasone</strong> يعزز من عملية تخليق الجلوكوز، وفي الحالات المتأخرة، يعد إنهاء الحمل (عن طريق تحريض الولادة أو العملية القيصرية) هو الحل الوحيد لإنقاذ الأم من النفوق المحقق.
+            </p>
+
+            <h3 style="color: #9a7d0a;">ج- الدعم الغذائي الإضافي:</h3>
+            <p>
+                يجب تشجيع النعجة على الأكل بتقديم أعلاف عالية الجودة وسهلة الهضم، مع إضافة فيتامين <strong>B12</strong> لدعم وظائف الكبد.
+            </p>
+
+            <div class="source-box" style="background-color: #fef9e7; padding: 10px; border-radius: 5px; margin-top: 20px; font-size: 0.9em;">
+                <strong>المصادر العلمية:</strong>
+                <ul>
+                    <li><a href="https://www.msdvetmanual.com/metabolic-disorders/pregnancy-toxemia-in-sheep-and-goats/management-of-pregnancy-toxemia" target="_blank">MSD Veterinary Manual - Management of Pregnancy Toxemia</a></li>
+                    <li>Veterinary Clinics of North America: Food Animal Practice.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="prevention" style="padding: 20px; border-bottom: 2px solid #ddd; background-color: #f4fcf4;">
+        <h2 style="color: #2c3e50; border-right: 5px solid #2ecc71; padding-right: 10px;">
+            6. الإدارة الوقائية المتكاملة (Comprehensive Preventive Management)
+        </h2>
+        <div class="content" style="line-height: 1.8; text-align: justify;">
+            <p>الوقاية هي الركيزة الأساسية لتقليل الخسائر الاقتصادية، وتعتمد على استراتيجية متعددة المحاور:</p>
+            <h3 style="color: #27ae60;">أ- الاستراتيجية الغذائية:</h3>
+            <p>يجب رفع كثافة الطاقة في العليقة خلال الأسابيع الـ 6 الأخيرة من الحمل لتعويض النقص الناتج عن ضغط الرحم على الكرش. يُنصح بإضافة الكربوهيدرات سهلة الهضم وتجنب التغيير المفاجئ في مكونات العلف.</p>
+            <h3 style="color: #27ae60;">ب- التصنيف المعتمد على السونار (Scanning):</h3>
+            <p>يعد عزل النعاج الحامل بتوائم وتغذيتها بشكل منفصل إجراءً وقائياً حاسماً لضمان حصولها على احتياجاتها العالية من الجلوكوز دون منافسة.</p>
+            
+            <div class="source-box" style="background-color: #eafaf1; padding: 10px; border-radius: 5px; margin-top: 10px; font-size: 0.9em;">
+                <strong>المصدر:</strong> <a href="https://www.msdvetmanual.com/" target="_blank">MSD Veterinary Manual - Preventive Protocols</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="latest-research" style="padding: 20px; border-bottom: 2px solid #ddd; background-color: #fff;">
+        <h2 style="color: #2c3e50; border-right: 5px solid #9b59b6; padding-right: 10px;">
+            7. أحدث الدراسات والآفاق المستقبلية (Latest Research 2024-2025)
+        </h2>
+        <div class="content" style="line-height: 1.8; text-align: justify;">
+            <h3 style="color: #8e44ad;">أ- المضافات العلفية الحديثة (Monensin):</h3>
+            <p>أثبتت دراسات عام 2024 أن استخدام الـ Ionophores يساعد في تحويل بيئة الكرش لإنتاج كميات أكبر من البروبيونات، مما يقلل من حاجة الجسم لتكسير الدهون وتراكم الكيتونات.</p>
+            <h3 style="color: #8e44ad;">ب- التشخيص المبكر (BHB Testing):</h3>
+            <p>توصي أبحاث عام 2025 باستخدام أجهزة القياس الحقلية لمراقبة مستويات β-hydroxybutyrate دورياً، مما يسمح بالتدخل الطبي قبل ظهور الأعراض السريرية بـ 7-10 أيام.</p>
+            
+            <div class="source-box" style="background-color: #f4ecf7; padding: 10px; border-radius: 5px; margin-top: 10px; font-size: 0.9em;">
+                <strong>المصادر:</strong> 
+                <a href="https://onlinelibrary.wiley.com/journal/19391676" target="_blank">Journal of Veterinary Internal Medicine</a> | 
+                <a href="https://www.journalofdairyscience.org/" target="_blank">Journal of Dairy Science</a>
+            </div>
+        </div>
+    </section>
+
+    <footer style="background-color: #1a252f; color: #ecf0f1; padding: 60px 20px; text-align: center; margin-top: 50px; border-top: 6px solid #c0392b; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; border-radius: 15px;">
+        <div class="conclusion-container" style="max-width: 900px; margin: 0 auto 40px auto;">
+            <h2 style="color: #e74c3c; font-size: 2em; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 2px;">Conclusion</h2>
+            <p style="font-size: 1.2em; line-height: 1.8; text-align: justify; color: #bdc3c7; border-left: 3px solid #e74c3c; padding-left: 20px; margin-bottom: 30px;">
+                In conclusion, Pregnancy Toxemia represents a significant metabolic challenge in small ruminant medicine, particularly within the Syrian agricultural landscape where the <strong>Awassi sheep</strong> constitutes a vital economic pillar. This research has demonstrated that while the pathophysiology is complex--involving severe negative energy balance and ketosis--the key to mitigating its impact lies in a multi-faceted approach. 
+            </p>
+            <p style="font-size: 1.1em; line-height: 1.8; text-align: justify; color: #bdc3c7;">
+                By integrating advanced nutritional management, early diagnostic biomarkers like <strong>BHB monitoring</strong>, and rapid therapeutic intervention, we can drastically reduce mortality rates. It is imperative that future veterinary practices in Syria continue to bridge the gap between global academic advancements and local field applications to ensure the sustainability of our national livestock health.
+            </p>
+        </div>
+        <hr style="width: 50%; border: 0; border-top: 1px solid #34495e; margin: 40px auto;">
+        <div class="signature-section" style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 30px; margin-top: 40px;">
+            <div class="credit-box">
+                <h4 style="color: #95a5a6; text-transform: uppercase; font-size: 0.8em; margin-bottom: 10px;">Designed & Developed by</h4>
+                <p style="font-size: 1.5em; font-weight: bold; color: #f1c40f; margin: 0;">Yazan Khaled Abdulrahman</p>
+                <p style="color: #7f8c8d; font-size: 0.9em;">Faculty of Veterinary Medicine</p>
+            </div>
+            <div class="credit-box">
+                <h4 style="color: #95a5a6; text-transform: uppercase; font-size: 0.8em; margin-bottom: 10px;">Under the Supervision of</h4>
+                <p style="font-size: 1.5em; font-weight: bold; color: #3498db; margin: 0;">Dr. Maher Salimeh</p>
+                <p style="color: #7f8c8d; font-size: 0.9em;">Assistant Professor</p>
+            </div>
+        </div>
+        <div class="university-footer" style="margin-top: 50px; font-size: 0.85em; color: #7f8c8d;">
+            <p style="margin: 5px 0;">University of Damascus | Faculty of Veterinary Medicine</p>
+            <p style="margin: 5px 0;">Academic Year: 2024 - 2025</p>
+        </div>
+    </footer>
+<a href="#" class="back-to-top">⬆ عودة للأعلى</a>
+<script>
+    window.onscroll = function() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("progress-bar").style.width = scrolled + "%";
+    };
+</script>
+
+
+</body>
+</html>
